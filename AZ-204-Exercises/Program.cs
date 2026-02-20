@@ -2,10 +2,10 @@
 
 using AZ_204_Exercises;
 
-Console.WriteLine("What's your name?");
+Console.WriteLine("What exercise do you want to run? (Blob, CosmosDB, Functions, LogicApps, ServiceBus, StorageQueue)");
 var name = Console.ReadLine();
 
-if (name != null)
+if (name != "Blob")
 {
     var blob = new BlobExercise();
     blob.ProcessAsync();

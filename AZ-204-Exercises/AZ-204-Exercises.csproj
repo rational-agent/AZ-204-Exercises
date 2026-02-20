@@ -11,6 +11,8 @@
     <ItemGroup>
       <PackageReference Include="Azure.Identity" Version="1.18.0-beta.2" />
       <PackageReference Include="Azure.Storage.Blobs" Version="12.28.0-beta.1" />
+      <PackageReference Include="dotenv.net" Version="4.0.0" />
+      <PackageReference Include="Microsoft.Identity.Client" Version="4.82.1" />
     </ItemGroup>
 
 </Project>
