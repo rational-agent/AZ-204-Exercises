@@ -37,7 +37,7 @@ public class GraphExercise
 
         // ADD CODE TO CREATE GRAPH CLIENT AND RETRIEVE USER PROFILE
         // Create a Microsoft Graph client using the credential
-        /*
+        
         var graphClient = new GraphServiceClient(credential);
 
         // Retrieve and display the user's profile information
@@ -61,7 +61,6 @@ public class GraphExercise
                 Console.WriteLine($"Error retrieving profile: {ex.Message}");
             }
         }
-        */
                 
     }
 }
