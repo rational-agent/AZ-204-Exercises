@@ -1,11 +1,13 @@
 namespace AZ_204_Exercises;
 
 using Azure.Identity;
+using Microsoft.Graph;
 using dotenv.net;
+
 
 public class GraphExercise
 {
-    public void ProcessAsync()
+    public async void ProcessAsync()
     {
         // Load environment variables from .env file (if present)
         DotEnv.Load();
